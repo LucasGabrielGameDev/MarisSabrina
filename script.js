@@ -7,14 +7,14 @@ function toggleMode() {
   //substituir a imagem na tag.
   if (html.classList.contains("light")) {
     //Se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar.jpg")
     img.setAttribute(
       "alt",
       "Foto de Lucas Gabriel de terno bege e gravata terracota"
     )
   } else {
     //se tiver sem light mode, manter a imagem atual
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar.jpg")
     img.setAttribute(
       "alt",
       "Foto de Lucas Gabriel de terno bege e gravata terracota"
